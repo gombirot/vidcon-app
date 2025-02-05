@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI Video Creator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="module" crossorigin src="/assets/index-CjU1yrcW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BxRLIrqt.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>AI Video Creator</h1>
+      
+      <div class="video-container">
+        <video id="videoInput" autoplay playsinline></video>
+        <canvas id="outputCanvas"></canvas>
+      </div>
+
+      <div class="controls">
+        <button id="startBtn">Start Recording</button>
+        <button id="stopBtn" disabled>Stop Recording</button>
+        <button id="downloadBtn" disabled>Download Video</button>
+      </div>
+
+      <div class="effects">
+        <h2>AI Effects</h2>
+        <button class="effect-btn" data-effect="background">Background Removal</button>
+        <button class="effect-btn" data-effect="face">Face Effects</button>
+        <button class="effect-btn" data-effect="pose">Pose Detection</button>
+      </div>
+    </main>
+  </body>
+</html>
